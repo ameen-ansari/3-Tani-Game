@@ -65,11 +65,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* border: 2px solid red; */
   }
   .parentitems {
     width: 95vw;
-    height: 100vh;
+    height: 100%;
     margin: auto;
     justify-content:center;
     align-items: center;
@@ -83,7 +82,6 @@
     height: 40%;
     text-align: center;
     color: black;
-    /* border: 2px solid red; */
   }
   #setname {
     display: flex;
@@ -95,6 +93,5 @@
     height:40%;
     text-align: center;
     color: black;
-    /* border: 2px solid red; */
 }
 }
