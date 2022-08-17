@@ -20,13 +20,15 @@
             <b class="fs-4 text-white">3 Tani</b>
         </div>
     </div>
-    <div class="parentitems border">
-        <div class="part1 border">
+    <div class="parentitems d-flex flex-sm-column flex-column flex-md-row flex-row flex-xl-row">
+        <div class="part1">
             <div class="subparentitems">
-                <div onclick="innertextc(this)" class="text-center  item border-dark border border-top-0 border-start-0">
+                <div onclick="innertextc(this)"
+                    class="text-center  item border-dark border border-top-0 border-start-0">
                 </div>
                 <div onclick="innertextc(this)" class="text-center  item border-dark border border-start-0"></div>
-                <div onclick="innertextc(this)" class="text-center  item border-dark border border-start-0 border-bottom-0">
+                <div onclick="innertextc(this)"
+                    class="text-center  item border-dark border border-start-0 border-bottom-0">
                 </div>
             </div>
             <div class="subparentitems">
@@ -38,16 +40,29 @@
                 <div onclick="innertextc(this)" class="text-center  item border-dark border border-top-0 border-end-0">
                 </div>
                 <div onclick="innertextc(this)" class="text-center  item border-dark border border-end-0"></div>
-                <div onclick="innertextc(this)" class="text-center  item border-dark border border-bottom-0 border-end-0">
+                <div onclick="innertextc(this)"
+                    class="text-center  item border-dark border border-bottom-0 border-end-0">
                 </div>
             </div>
         </div>
-        <div class="part2 border">
-            <h1 id="pturn">User <span id="turn">X</span></h1>
+        <div class="part2 rounded ">
+            <h1 id="pturn"><span id="turn"></span></h1>
             <p id="indicate">How is the Winer</p>
         </div>
-
+        <div id="setname">
+            <h2 class="mb-4">Set User Name</h2>
+            <div class="d-flex justify-content-center">
+                <label for="input1" class="mb-2"><b>1st User Name:</b></label>
+                <input type="text" class="mb-2" id="input1"><br>
+            </div>
+            <div class="d-flex justify-content-center">
+                <label for="input2" class="x"><b>2nd User Name:</b></label>
+                <input id="input2" type="text">
+            </div>
+            <button onclick="set()" id="setbtn" class="rounded mx-auto d-block mt-3">Set</button>
+        </div>
     </div>
+
     <script src="./script.js"></script>
 </body>
 

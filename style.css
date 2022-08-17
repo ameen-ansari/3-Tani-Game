@@ -1,39 +1,67 @@
-.parentitems{
-    width:100vw;
-    height:70vh;
-    margin:auto;
+.parentitems {
+  width: 95vw;
+  height: 70vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.subparentitems {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+.part1 {
+  width: 45%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.part2 {
     display: flex;
-    justify-content: center;
+    flex-direction:column;
     align-items: center;
-}
-.part1{
-    width:40%;
-    height:70%;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
     justify-content: center;
-}
-.subparentitems{
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    width:50%;
-    height: 100%;
-}
-.part2{
-    width:40%;
-    height:70%;
-    text-align: center;
+    width: 45%;
+  height: 70%;
+  text-align: center;
+  color: black;
 }
 .item {
-    width: 100%;
-    height: 70%;
-    font-size: 3rem;
+  width: 100%;
+  height: 70%;
+  font-size: 3rem;
 }
 .item:hover {
-    background-color: rgba(190, 81, 190, 0.3);
-    width: 100%;
+  background-color: rgba(190, 81, 190, 0.3);
+  width: 100%;
+  height: 70%;
+  font-size: 3rem;
+}
+#playbtn:hover {
+  background-color: black;
+  color: white;
+}
+#setbtn {
+    width:5rem ;
+}
+#setname{
+    /* width: 45%;
     height: 70%;
-    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center; */
+    display: flex;
+    display: none;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+  height: 70%;
+  text-align: center;
+  color: black;
 }
