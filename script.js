@@ -8,10 +8,14 @@ var part1 = document.getElementsByClassName('part1')[0]
 var ask = document.getElementById('ask')
 var music = new Audio('music.mp3')
 var bgmusic = new Audio('bg-music.mp3')
-// var user1 = prompt('Please inter the First user name')
-// var user2 = prompt('Please inter the Second user name')
-var user1 = 'x'
-var user2 = 'y'
+var user1 = prompt('Please inter the First user name','guest1')
+var user2 = prompt('Please inter the Second user name','guest2')
+if (user1 === "" && user2 === "")
+{
+  set()
+}else{
+// var user1 = 'x'
+// var user2 = 'y'
 displayTurn.innerText = user1
 
 // Main Variables
@@ -109,7 +113,7 @@ changeusername = () => {
   }
 }
 // logic for changeusername
-set = () => {
+var set = () => {
   displayTurn.innerText = user1
   // for setname class
   if (setname.style.display === 'block') {
@@ -133,4 +137,4 @@ set = () => {
     ask.innerText = 'Please Insert The Information'
   }
   playagain()
-}
+}}

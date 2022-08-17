@@ -60,16 +60,17 @@
 }
 @media (max-width: 500px) {
   .part1 {
-    width: 90%;
-    height: 40%;
+    width: 85vw;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-  .parentitems {
+}
+.parentitems {
     width: 95vw;
-    height: 100%;
+    height: 90vh;
     margin: auto;
+    display: flex;
     justify-content:center;
     align-items: center;
   }
@@ -78,8 +79,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 85%;
-    height: 40%;
+    width: 85vw;
+    height: 40vh;
     text-align: center;
     color: black;
   }
@@ -89,8 +90,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    height:40%;
+    width: 80vw;
+    height:40vh;
     text-align: center;
     color: black;
 }
