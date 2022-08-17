@@ -48,13 +48,6 @@
     width:5rem ;
 }
 #setname{
-    /* width: 45%;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: auto;
-    text-align: center; */
     display: flex;
     display: none;
     flex-direction:column;
