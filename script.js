@@ -10,10 +10,6 @@ var music = new Audio('music.mp3')
 var bgmusic = new Audio('bg-music.mp3')
 var user1 = prompt('Please inter the First user name','guest1')
 var user2 = prompt('Please inter the Second user name','guest2')
-if (user1 === "" && user2 === "")
-{
-  set()
-}else{
 // var user1 = 'x'
 // var user2 = 'y'
 displayTurn.innerText = user1
@@ -137,4 +133,4 @@ var set = () => {
     ask.innerText = 'Please Insert The Information'
   }
   playagain()
-}}
+}
