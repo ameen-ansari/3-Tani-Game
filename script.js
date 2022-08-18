@@ -10,6 +10,25 @@ var music = new Audio('music.mp3')
 var bgmusic = new Audio('bg-music.mp3')
 var user1 = prompt('Please inter the First user name','guest1')
 var user2 = prompt('Please inter the Second user name','guest2')
+
+valuechecker = () => {
+  if(user1 === "" & user2 === ""){
+    user1 = prompt('Please inter the First user name','guest1')
+    user2 = prompt('Please inter the Second user name','guest2')
+  }
+}
+valuechecker()
+autoSetName = () => {
+  if(user1 === "" & user2 === ""){
+    alert('computer Set User Name Sucessfully')
+    user1 = 'user1'
+    user2 = 'user2'
+  }
+
+}
+autoSetName()
+// autoSetName()
+
 // var user1 = 'x'
 // var user2 = 'y'
 displayTurn.innerText = user1
